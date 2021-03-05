@@ -347,113 +347,10 @@ header h1 {
 }
 
 
-
-/* ----------------------------------------------- */
-/* HOW IT WORKS SECTION */
-/* ----------------------------------------------- */
-
-.section-steps {
-    background-color: #f4f4f4;
-}
-
-.steps-box {
-    margin-top: 30px;
-}
-
-
-.steps-box:first-child {
-    text-align: right;
-    padding-right: 3%;
-}
-
-.steps-box:last-child {
-    text-align: left;
-    padding-left: 3%;
-    margin-top: 70px;
-}
-
-.app-screen {
-    width: 40%;
-}
-
-.works-step {
-    margin-bottom: 50px;
-}
-
-.works-step:last-of-type {
-    margin-bottom: 80px;
-}
-
-.works-step div {
-    color: #9100b7;
-    font-size: 150%;
-    height: 54px;
-    width: 54px;
-    border: 2px solid #9100b7;
-    border-radius: 50%;
-    display: inline-block;
-    text-align: center;
-    margin-right: 25px;
-    float: left;
-    padding: 5px;
-}
-
-.btn-app:link,
-.btn-app:visited {
-    border: 0;
-}
-
-.btn-app img {
-    height: 50px;
-    width: auto;
-    margin-right: 10px;
-}
-
-
 /* ----------------------------------------------- */
 /* ABOUT */
 /* ----------------------------------------------- */
 
-.box img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 15px;
-}
-
-.about-feature {
-    margin-bottom: 5px;
-}
-
-
-/* ----------------------------------------------- */
-/* TESTIMONIALS */
-/* ----------------------------------------------- */
-
-.section-testimonials {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(img/back.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(img/back.jpg);
-    background-size: cover;
-    color: #fff;
-    background-attachment: fixed;
-    height: 45vh;
-}
-
-blockquote {
-    padding: 2%;
-    font-style: italic;
-    line-height: 145%;
-    position: relative;
-    margin-top: 50px;
-}
-
-blockquote:before {
-    content: "\201C";
-    font-size: 500%;
-    display: block;
-    position: absolute;
-    top: -5px;
-    left: -5px;
-}
 
 about {
     font-size: 90%;
@@ -468,84 +365,15 @@ about img {
     vertical-align: middle;
 }
 
-
-/* ----------------------------------------------- */
-/* SIGN UP */
-/* ----------------------------------------------- */
-
-.section-contact {
-    background-color: #f4f4f4;
-}
-
-.contact-box {
-    background-color: #fff;
-    border-radius: 5px;
-    width: 90%;
-    margin-left: 5%;
-    box-shadow: 0 2px 2px #efefef;
-}
-
-.contact-box div {
-    padding: 15px;
-    border-bottom: 1px solid #9100b7;
-}
-
-.contact-box div:first-child {
-    background-color: #fcfcff;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
-
-.contact-box div:last-child {
-    text-align: center;
-    border: 0;
-}
-
-.contact-box ul {
-    list-style: none;
-}
-
-.contact-box ul li {
-    padding: 5px 0;
-    text-decoration: none;
-}
-
-.contact-frame {
-    border: 0;
-    width:100%;
-    height: 500px;
-}
-
-
-/* ----------------------------------------------- */
-/* FORM */
-/* ----------------------------------------------- */
-
-.contact-form {
-    width: 60%;
-    margin: 0 auto;
-}
-
-input[type=text],
-input[type=email],
-select,
-textarea {
+.box img {
     width: 100%;
-    padding: 7px;
-    border-radius: 3px;
-    border: 1px solid #ccc;
+    height: auto;
+    margin-bottom: 15px;
 }
 
-textarea {
-    height: 100px;
+.about-feature {
+    margin-bottom: 5px;
 }
-
-input[type=checkbox] {
-    margin: 10px 5px 10px 0;
-}
-
-*:focus {outline: none;}
-
 
 /* ----------------------------------------------- */
 /* FOOTER */
