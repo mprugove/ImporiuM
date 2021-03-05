@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33330ba2-4040-48f9-969b-19c1b64666a5" name="Default Changelist" comment="" />
+    <list default="true" id="33330ba2-4040-48f9-969b-19c1b64666a5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pub/resources/css/queries.css" beforeDir="false" afterPath="$PROJECT_DIR$/pub/resources/css/queries.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pub/resources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/pub/resources/css/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +13,9 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -19,6 +26,7 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1pCJxXIdnrw4TlO1YjwxIiLi91M" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -60,6 +68,7 @@
       <workItem from="1614768278191" duration="6668000" />
       <workItem from="1614848207862" duration="10504000" />
       <workItem from="1614902525907" duration="172000" />
+      <workItem from="1614935956689" duration="2911000" />
     </task>
     <servers />
   </component>
