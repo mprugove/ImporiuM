@@ -1,3 +1,4 @@
+
 /* ----------------------------------------------- */
 /* BASIC SETUP */
 /* ----------------------------------------------- */
@@ -346,11 +347,19 @@ header h1 {
     transform: scale(1.03);
 }
 
-
 /* ----------------------------------------------- */
 /* ABOUT */
 /* ----------------------------------------------- */
 
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.about-feature {
+    margin-bottom: 5px;
+}
 
 about {
     font-size: 90%;
@@ -365,15 +374,55 @@ about img {
     vertical-align: middle;
 }
 
-.box img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 15px;
+
+/* ----------------------------------------------- */
+/* SIGN UP */
+/* ----------------------------------------------- */
+
+.section-contact {
+    background-color: #f4f4f4;
 }
 
-.about-feature {
-    margin-bottom: 5px;
+.contact-box {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 2px 2px #efefef;
 }
+
+.contact-box div {
+    padding: 15px;
+    border-bottom: 1px solid #9100b7;
+}
+
+.contact-box div:first-child {
+    background-color: #fcfcff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.contact-box div:last-child {
+    text-align: center;
+    border: 0;
+}
+
+.contact-box ul {
+    list-style: none;
+}
+
+.contact-box ul li {
+    padding: 5px 0;
+    text-decoration: none;
+}
+
+.contact-frame {
+    border: 0;
+    width:100%;
+    height: 500px;
+}
+
+
 
 /* ----------------------------------------------- */
 /* FOOTER */
